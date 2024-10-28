@@ -1,0 +1,19 @@
+﻿<Window x:Class="Booc.Window5"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Booc"
+        mc:Ignorable="d"
+        Title="Window5" Height="175" Width="225">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="37*"/>
+            <RowDefinition Height="98*"/>
+        </Grid.RowDefinitions>
+        <Button Content="Сохранить " HorizontalAlignment="Center" Height="48" Margin="0,39,0,0" VerticalAlignment="Top" Width="168" Click="Button_Click" Grid.Row="1"/>
+        <Label Content="Издатель" HorizontalAlignment="Center" Height="25" VerticalAlignment="Center" Width="174"/>
+        <TextBox x:Name="TextBox1" HorizontalAlignment="Center" Height="36" Margin="0,35,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="168" Grid.RowSpan="2"/>
+
+    </Grid>
+</Window>
